@@ -74,7 +74,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       controller: passwordController,
                       type: TextInputType.visiblePassword,
                       label: 'Password',
-                      isPassWord: isPassword,
+                      isPassword: isPassword,
                       prefix: Icons.password_rounded,
                       suffix: isPassword ? Icons.visibility : Icons.visibility_off,
                       validate: (value)
