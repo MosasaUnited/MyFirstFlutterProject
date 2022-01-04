@@ -1,5 +1,6 @@
 import 'package:firstflutter_project/layout/news_app/cubit/cubit.dart';
 import 'package:firstflutter_project/layout/news_app/cubit/states.dart';
+import 'package:firstflutter_project/shared/network/remote/dio_helper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -9,7 +10,7 @@ class NewsLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (BuildContext context) => NewsCubit(),
+      create: (BuildContext context) => NewsCubit()..getBusiness()..getScience()..getSports(),
       child: BlocConsumer<NewsCubit, NewsStates>(
         listener: (context, state){},
         builder: (context, state){

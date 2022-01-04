@@ -3,6 +3,7 @@ import 'package:firstflutter_project/modules/counter/counter_screen.dart';
 import 'package:firstflutter_project/modules/home/home_screen.dart';
 import 'package:firstflutter_project/modules/messenger/messenger.dart';
 import 'package:firstflutter_project/shared/bloc_observer.dart';
+import 'package:firstflutter_project/shared/network/remote/dio_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'layout/news_app/news_layout.dart';
@@ -13,7 +14,7 @@ import 'modules/counter/cubit/cubit.dart';
 import 'modules/counter/cubit/states.dart';
 import 'modules/login/login_screen.dart';
 import 'package:firstflutter_project/modules/user/users_screen.dart';
-
+import 'package:dio/dio.dart';
 
 void main()
 {
@@ -26,6 +27,7 @@ void main()
     },
     blocObserver: MyBlocObserver(),
   );
+  DioHelper.init();
   runApp(MyApp());
 
 }
@@ -40,6 +42,7 @@ class MyApp extends StatelessWidget
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        primarySwatch: Colors.deepOrange,
         scaffoldBackgroundColor: Colors.white,
         appBarTheme: AppBarTheme(
           backwardsCompatibility: false,
@@ -60,6 +63,9 @@ class MyApp extends StatelessWidget
           ),
 
         ),
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+          backgroundColor: Colors.deepOrange,
+        ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           type: BottomNavigationBarType.fixed,
           selectedItemColor: Colors.deepOrange,
@@ -67,7 +73,10 @@ class MyApp extends StatelessWidget
 
         ),
       ),
-      home : NewsLayout(),
+      home :
+      Directionality(
+          textDirection: TextDirection.rtl,
+      child: NewsLayout()),
     );
 
   }

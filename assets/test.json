@@ -1,0 +1,255 @@
+{
+  "status": "ok",
+  "totalResults": 70,
+  -"articles": [
+  -{
+    -"source": {
+      "id": "usa-today",
+      "name": "USA Today"
+    },
+    "author": "Eve Chen, USA TODAY",
+    "title": "Are flights still being canceled? Yes. More than 1,400 cancellations so far Tuesday. - USA TODAY",
+    "description": "More than 20,000 U.S. flights have been canceled since Christmas Eve.",
+    "url": "https://www.usatoday.com/story/travel/airline-news/2022/01/04/flight-cancellations-tuesday-southwest/9087236002/",
+    "urlToImage": "https://www.gannett-cdn.com/presto/2022/01/04/USAT/5405265e-ce0d-41c7-ac00-154595e710f6-GettyImages-1237523504.jpeg?auto=webp&crop=3899,2193,x1,y18&format=pjpg&width=1200",
+    "publishedAt": "2022-01-04T20:26:15Z",
+    "content": "Travelers hoping to fly out Tuesday faced another rude awakening. \r\nMore than 1,400 U.S. flights werehave been canceled as of 3 p.m. ET, according to flight tracker FlightAware.\r\nSouthwest has the hi… [+2090 chars]"
+  },
+  -{
+    -"source": {
+      "id": "the-wall-street-journal",
+      "name": "The Wall Street Journal"
+    },
+    "author": "Matt Grossman",
+    "title": "Ford Doubles Production Goal for F-150 Electric Pickup - The Wall Street Journal",
+    "description": "Shares hit two-decade high as auto maker says the increased plans reflect the demand for the model",
+    "url": "https://www.wsj.com/articles/ford-doubles-production-goal-for-f-150-electric-pickup-11641313553",
+    "urlToImage": "https://images.wsj.net/im-461477/social",
+    "publishedAt": "2022-01-04T20:24:00Z",
+    "content": "Ford Motor Co.\r\n F 11.64%\r\nhas doubled its goal for manufacturing its new electric version of the F-150 pickup truck, targeting 150,000 a year, the auto maker said Tuesday, sending its shares higher.… [+2468 chars]"
+  },
+  -{
+    -"source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "Maegan Vazquez, CNN",
+    "title": "Biden announces US will double its order of Pfizer's antiviral pill to treat Covid-19 - CNN",
+    "description": "President Joe Biden on Tuesday announced that the federal government is doubling the US' order for Pfizer's Covid-19 antiviral pill, Paxlovid, which has been shown to reduce hospitalizations and severe illness significantly.",
+    "url": "https://www.cnn.com/2022/01/04/politics/biden-covid-meeting-remarks-guidelines/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220104141758-02-biden-covid-briefing-0104-super-tease.jpg",
+    "publishedAt": "2022-01-04T20:06:00Z",
+    "content": "(CNN)President Joe Biden on Tuesday announced that the federal government is doubling the US' order for Pfizer's Covid-19 antiviral pill, Paxlovid, which has been shown to reduce hospitalizations and… [+5003 chars]"
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Lauren Thomas",
+    "title": "Macy's cuts store hours at all of its stores as Covid cases spike and retailers face new staffing challenges - CNBC",
+    "description": "Macy's is shortening its store hours for the rest of the month as coronavirus cases spike in the United States and companies grapple with staffing shortages.",
+    "url": "https://www.cnbc.com/2022/01/04/macys-cuts-store-hours-at-all-of-its-stores-as-covid-cases-spike.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106994202-1640967287727-macys2.jpg?v=1640967309",
+    "publishedAt": "2022-01-04T19:50:30Z",
+    "content": "Macy's is shortening store hours for the rest of the month as coronavirus cases spike in the United States and retailers grapple with staffing shortages.\r\nFrom Monday to Thursday, Macy's department s… [+3283 chars]"
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "New York Times"
+    },
+    "author": "Erin Woo",
+    "title": "Mistrial Declared for Three Counts in Elizabeth Holmes Trial - The New York Times",
+    "description": "The three hung counts were related to investments from three Theranos investors who testified that Ms. Holmes misled them.",
+    "url": "https://www.nytimes.com/2022/01/04/technology/elizabeth-holmes-mistrial-hung-jury.html",
+    "urlToImage": "https://static01.nyt.com/images/2022/01/04/business/04economy-briefing-holmes-mistrial/merlin_199891197_1decc1ac-2c09-492d-8f18-1639cc7589e4-facebookJumbo.jpg",
+    "publishedAt": "2022-01-04T19:41:40Z",
+    "content": "The hung counts came after a jury of eight men and four women spent 50 hours over seven days deliberating a verdict. On Monday, they twice told Judge Edward J. Davila of the United States District Co… [+1147 chars]"
+  },
+  -{
+    -"source": {
+      "id": "ars-technica",
+      "name": "Ars Technica"
+    },
+    "author": "Tim De Chant",
+    "title": "New solar roof emulates asphalt shingles, right down to the nails - Ars Technica",
+    "description": "Streamlined installation should cut costs over competing solar roofs.",
+    "url": "https://arstechnica.com/gadgets/2022/01/new-solar-roof-can-be-nailed-just-like-old-school-shingles/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2022/01/Timberline-Solar-PK-ALP_210308-0663_rgb-760x380.jpg",
+    "publishedAt": "2022-01-04T19:17:58Z",
+    "content": "Enlarge/ Installers nail GAF Energy's new solar shingles to a demonstration house.\r\n74 with 48 posters participating, including story author\r\nA new solar technology introduced yesterday at CES could … [+3028 chars]"
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Lorie Konish",
+    "title": "A 5.9% increase to Social Security benefits takes effect this month. Here’s what to expect - CNBC",
+    "description": "Social Security benefits are poised to get the largest annual increase in decades. Here's what beneficiaries can expect when those checks start this month.",
+    "url": "https://www.cnbc.com/2022/01/04/5-point-9-percent-social-security-cost-of-living-adjustment-takes-effect-this-month.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106854766-1615917361338-gettyimages-52182105-52164416WC008_socialsec.jpeg?v=1641307846",
+    "publishedAt": "2022-01-04T18:57:41Z",
+    "content": "An employee watches as checks are run through a printer at the U.S. Treasury printing facility in Philadelphia.\r\nThe new year will usher in bigger Social Security checks for many beneficiaries starti… [+3926 chars]"
+  },
+  -{
+    -"source": {
+      "id": "google-news",
+      "name": "Google News"
+    },
+    "author": null,
+    "title": "Dow Jones Soars To All-Time High, But Nvidia, AMD Stock Slammed; Watch These Financial Stocks Now - Investor's Business Daily",
+    "description": null,
+    "url": "https://news.google.com/__i/rss/rd/articles/CBMilQFodHRwczovL3d3dy5pbnZlc3RvcnMuY29tL21hcmtldC10cmVuZC9zdG9jay1tYXJrZXQtdG9kYXkvZG93LWpvbmVzLXNvYXJzLXRvLWFsbC10aW1lLWhpZ2gtbnZpZGlhLWFtZC1zdG9jay1zbGFtbWVkLXdhdGNoLXRoZXNlLWZpbmFuY2lhbC1zdG9ja3Mtbm93L9IBAA?oc=5",
+    "urlToImage": null,
+    "publishedAt": "2022-01-04T18:37:00Z",
+    "content": null
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "Los Angeles Times"
+    },
+    "author": "Ryan Faughnder",
+    "title": "Michael Eisner sells Topps sports trading card company - Los Angeles Times",
+    "description": "The ex-Disney CEO's sale of Topps comes after the company Fanatics swooped in to acquire the trading card rights for Major League Baseball players' images.",
+    "url": "https://www.latimes.com/entertainment-arts/business/story/2022-01-04/michael-eisner-sell-topps-trading-card-company-after-losing-baseball-rights",
+    "urlToImage": "https://ca-times.brightspotcdn.com/dims4/default/72d1a57/2147483647/strip/true/crop/2857x1500+0+1000/resize/1200x630!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fe1%2F5b%2F8cfcf1a74eae9951ec498188a95a%2Fla-ca-michael-eisner-008.JPG",
+    "publishedAt": "2022-01-04T18:27:07Z",
+    "content": "Former Walt Disney Co. Chief Executive Michael Eisner has sold the Topps trading card business to merchandising giant Fanatics after losing its key Major League Baseball license. \r\nEisner has owned T… [+3283 chars]"
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "CNBC US Source",
+    "title": "Cathie Wood and China — ETF experts on whether these underperformers could make a 2022 comeback - CNBC",
+    "description": "Cathie Wood's Ark Invest and Chinese stocks were two 2021 underperformers, but they could present a buying opportunity.",
+    "url": "https://www.cnbc.com/2022/01/04/cathie-wood-and-china-these-underperformers-may-make-a-2022-comeback.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106996330-1641304164254-gettyimages-1237528509-CHINA_ECONOMY.jpeg?v=1641304205",
+    "publishedAt": "2022-01-04T18:16:17Z",
+    "content": "The S&amp;P 500 may be hitting all-time highs again fresh off of closing out a record-breaking year, but not every corner of the market was so fortunate.\r\nFamed investor Cathie Wood and her Ark Inves… [+2625 chars]"
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "MarketWatch"
+    },
+    "author": "Mitch Tuchman",
+    "title": "Charlie Munger, Warren Buffett's right-hand man, just turned 98 and has some choice words about inflation, EBITDA and marriage - MarketWatch",
+    "description": "Unfiltered wit and wisdom from Buffett’s better business half",
+    "url": "https://www.marketwatch.com/story/charlie-munger-warren-buffetts-right-hand-man-just-turned-98-and-has-some-choice-words-about-inflation-ebitda-and-marriage-11641319939",
+    "urlToImage": "https://images.mktw.net/im-461638/social",
+    "publishedAt": "2022-01-04T18:12:00Z",
+    "content": "Many Americans, even those who dont pay much attention to investing and the markets, know the name Warren Buffett.Buffett, of course, is the billionaire philanthropist who created one of the greatest… [+3631 chars]"
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Jessica Bursztynsky",
+    "title": "Pinterest dips 10% to new 52-week low on Guggenheim downgrade - CNBC",
+    "description": "The firm downgraded the stock to neutral from buy and lowered its price target to $39 from $46.",
+    "url": "https://www.cnbc.com/2022/01/04/pinterest-stock-down-10percent-to-new-52-week-low-on-guggenheim-downgrade.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/105859896-1555597587163gettyimages-1137871598.jpeg?v=1641316259",
+    "publishedAt": "2022-01-04T17:51:32Z",
+    "content": "Shares of Pinterest dipped 10% on Tuesday and hit a new 52-week low after Guggenheim downgraded the stock from buy to neutral, citing user declines. It also lowered the price target from $46 to $39.\r… [+1528 chars]"
+  },
+  -{
+    -"source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "Paul P. Murphy, CNN",
+    "title": "Almost 600 Amazon packages found dumped near Oklahoma City - CNN",
+    "description": "The Oklahoma County Sheriff's Office says they are investigating how almost 600 packages from Amazon ended up dumped in a rural area northeast of Oklahoma City.",
+    "url": "https://www.cnn.com/2022/01/04/us/oklahoma-city-amazon-packages-dumped/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220104123013-01-oklahoma-city-amazon-packages-dumped-super-tease.jpg",
+    "publishedAt": "2022-01-04T17:43:00Z",
+    "content": null
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "nj.com"
+    },
+    "author": "Matt Gray | For NJ.com",
+    "title": "Another Walmart closing temporarily for COVID cleaning, restocking - NJ.com",
+    "description": "This is the fourth New Jersey location to close temporarily because of the latest coronavirus spike.",
+    "url": "https://www.nj.com/gloucester-county/2022/01/another-walmart-closing-temporarily-for-covid-cleaning-restocking.html",
+    "urlToImage": "https://www.nj.com/resizer/Vk7M7vNOShgqYrjLyfQgo8Y3-7s=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/CPOCRBFIFRF5XEENYVGTFMSCUI.jpg",
+    "publishedAt": "2022-01-04T17:37:00Z",
+    "content": "A Walmart location in Gloucester County is the latest New Jersey location that will close temporarily because of coronavirus concerns.\r\nThe Williamstown store at 1840 S. Black Horse Pike will close a… [+1900 chars]"
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "Yahoo Entertainment"
+    },
+    "author": "Daniel Howley",
+    "title": "CES 2022: The biggest trends to expect from the consumer tech conference - Yahoo Finance",
+    "description": "CES 2022 kicks off today, and these are the biggest trends to watch for.",
+    "url": "https://finance.yahoo.com/news/ces-2022-the-biggest-trends-to-expect-172548030.html",
+    "urlToImage": "https://s.yimg.com/ny/api/res/1.2/vGuMNL7J8OB6xIbSpID0tA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2022-01/9521f420-6d7e-11ec-abdc-734074e2d304",
+    "publishedAt": "2022-01-04T17:25:48Z",
+    "content": "CES 2022, one of the worlds largest technology conventions, kicks off today and runs through Thursday in Las Vegas. Much of the show will, however, take place away from the bright lights of The Strip… [+5742 chars]"
+  },
+  -{
+    -"source": {
+      "id": "the-wall-street-journal",
+      "name": "The Wall Street Journal"
+    },
+    "author": "Benjamin Mullin",
+    "title": "Bloomberg Media CEO Justin Smith Steps Down to Found News Startup - The Wall Street Journal",
+    "description": "New company’s editor in chief will be Ben Smith, who is leaving the New York Times",
+    "url": "https://www.wsj.com/articles/bloomberg-media-ceo-justin-smith-steps-down-to-found-news-startup-11641310893",
+    "urlToImage": "https://images.wsj.net/im-461235/social",
+    "publishedAt": "2022-01-04T17:18:00Z",
+    "content": "Bloomberg Media Chief Executive Justin Smith stepped down effective immediately to found a new media company, and tapped New York Times media columnist Ben Smith to lead its future newsroom. \r\nThe ne… [+375 chars]"
+  },
+  -{
+    -"source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "Jordan Valinsky, CNN Business",
+    "title": "Crystal Pepsi is back - CNN",
+    "description": "Crystal Pepsi, the quirky, failed, clear cola from the 1990s is making a comeback.",
+    "url": "https://www.cnn.com/2022/01/04/business/crystal-pepsi-return/index.html",
+    "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220104063719-crystal-pepsi-080117-file-super-tease.jpg",
+    "publishedAt": "2022-01-04T17:00:00Z",
+    "content": null
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "Barron's"
+    },
+    "author": "Al Root",
+    "title": "Tesla Stock Nears a New Record. Wall Street Says It's Worth 100 Times Earnings. - Barron's",
+    "description": "Tesla shares traded above $1,200 early Tuesday. That's within a hair's breadth of its all-time high of $1,243.49.",
+    "url": "https://www.barrons.com/articles/tesla-stock-price-record-valuation-51641306889",
+    "urlToImage": "https://images.barrons.com/im-461398/social",
+    "publishedAt": "2022-01-04T16:57:00Z",
+    "content": "Tesla stock traded above $1,200 a share early Tuesday, putting it close to its all-time high of $1,243.49. As the stock risesit soared by double digits on Mondayexpect more debate about how to value … [+296 chars]"
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Noah Higgins-Dunn",
+    "title": "Why Biogen's Alzheimer's drug Aduhelm is so controversial - CNBC",
+    "description": "Biogen's Alzheimer's drug Aduhelm was heralded as a historic triumph against the memory-robbing disease. Now, the company is trying to keep it afloat.",
+    "url": "https://www.cnbc.com/2022/01/04/why-biogens-alzheimers-drug-aduhelm-is-so-controversial-.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106898212-1623865063010-gettyimages-1233327895-PGONCHAR_W6591.jpeg?v=1624012283",
+    "publishedAt": "2022-01-04T16:55:46Z",
+    "content": "The U.S. Food and Drug Administration's approval of Biogen's Alzheimer's drug Aduhelm in June was heralded as a historic triumph in the fight against a disease that kills thousands of Americans every… [+1663 chars]"
+  },
+  -{
+    -"source": {
+      "id": null,
+      "name": "CNBC",
