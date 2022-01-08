@@ -1,5 +1,6 @@
 import 'package:firstflutter_project/layout/news_app/cubit/cubit.dart';
 import 'package:firstflutter_project/layout/news_app/cubit/states.dart';
+import 'package:firstflutter_project/shared/cubit/cubit.dart';
 import 'package:firstflutter_project/shared/network/remote/dio_helper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -23,7 +24,10 @@ class NewsLayout extends StatelessWidget {
                 'News App',
               ),
               actions: [
-                IconButton(onPressed: (){}, icon: Icon(Icons.search),)
+                IconButton(onPressed: (){}, icon: Icon(Icons.search),),
+                IconButton(onPressed: (){
+                  AppCubit.get(context).changeAppMode();
+                }, icon: Icon(Icons.brightness_2_outlined),),
               ],
             ),
             body: cubit.screens[cubit.currentIndex],

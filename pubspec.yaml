@@ -27,6 +27,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  hexcolor: ^2.0.5
   dio: ^4.0.4
   dio_http2_adapter: ^2.0.0
   dio_cookie_manager: ^2.0.0
