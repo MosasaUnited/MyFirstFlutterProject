@@ -5,6 +5,7 @@ import 'package:firstflutter_project/modules/messenger/messenger.dart';
 import 'package:firstflutter_project/shared/bloc_observer.dart';
 import 'package:firstflutter_project/shared/cubit/cubit.dart';
 import 'package:firstflutter_project/shared/cubit/states.dart';
+import 'package:firstflutter_project/shared/network/local/cache_helper.dart';
 import 'package:firstflutter_project/shared/network/remote/dio_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -20,8 +21,10 @@ import 'modules/login/login_screen.dart';
 import 'package:firstflutter_project/modules/user/users_screen.dart';
 import 'package:dio/dio.dart';
 
-void main()
+void main() async
 {
+  WidgetsFlutterBinding.ensureInitialized();
+
   BlocOverrides.runZoned(
         () {
       // Use blocs...
@@ -32,7 +35,11 @@ void main()
     blocObserver: MyBlocObserver(),
   );
   DioHelper.init();
-  runApp(MyApp());
+  await CacheHelper.init();
+
+  bool? isDark = CacheHelper.getBoolean(key: 'isDark');
+
+  runApp(MyApp(isDark!));
 
 }
 
@@ -40,11 +47,18 @@ void main()
 
 class MyApp extends StatelessWidget
 {
+
+  final bool isDark;
+
+  MyApp(this.isDark);
+
   @override
   Widget build(BuildContext Context)
   {
     return BlocProvider(
-      create: (BuildContext context) => AppCubit(),
+      create: (BuildContext context) => AppCubit()..changeAppMode(
+        fromShared: isDark,
+      ),
       child: BlocConsumer<AppCubit, AppStates>
         (
         listener: (BuildContext context, state) {},
@@ -147,7 +161,7 @@ class MyApp extends StatelessWidget
             themeMode: AppCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
             home :
             Directionality(
-                textDirection: TextDirection.rtl,
+                textDirection: TextDirection.ltr,
                 child: NewsLayout()),
           );
         },
