@@ -21,3 +21,7 @@
 // science api
 //
 
+
+// عشان اعمل سيرش على اى كلمة فى ال api
+//https://newsapi.org/v2/everything?q=tesla&apiKey=ca212ae6d01b468586323faad1884a42
+

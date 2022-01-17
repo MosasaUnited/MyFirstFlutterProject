@@ -1,5 +1,7 @@
 import 'package:firstflutter_project/layout/news_app/cubit/cubit.dart';
 import 'package:firstflutter_project/layout/news_app/cubit/states.dart';
+import 'package:firstflutter_project/modules/search/search_screen.dart';
+import 'package:firstflutter_project/shared/compenents/compenents.dart';
 import 'package:firstflutter_project/shared/cubit/cubit.dart';
 import 'package:firstflutter_project/shared/network/remote/dio_helper.dart';
 import 'package:flutter/cupertino.dart';
@@ -10,9 +12,7 @@ class NewsLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (BuildContext context) => NewsCubit()..getBusiness()..getScience()..getSports(),
-      child: BlocConsumer<NewsCubit, NewsStates>(
+    return BlocConsumer<NewsCubit, NewsStates>(
         listener: (context, state){},
         builder: (context, state){
           var cubit = NewsCubit.get(context);
@@ -24,7 +24,13 @@ class NewsLayout extends StatelessWidget {
                 'News App',
               ),
               actions: [
-                IconButton(onPressed: (){}, icon: Icon(Icons.search),),
+                IconButton(
+                  onPressed: ()
+                  {
+                    navigateTo(context, SearchScreen());
+                  },
+                  icon: Icon(Icons.search),
+                ),
                 IconButton(onPressed: (){
                   AppCubit.get(context).changeAppMode();
                 }, icon: Icon(Icons.brightness_2_outlined),),
@@ -41,7 +47,7 @@ class NewsLayout extends StatelessWidget {
             ),
           );
         },
-      ),
-    );
+      );
+
   }
 }

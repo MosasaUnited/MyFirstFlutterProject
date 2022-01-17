@@ -4,6 +4,7 @@ import 'package:firstflutter_project/modules/business/business_screen.dart';
 import 'package:firstflutter_project/modules/science/science_screen.dart';
 import 'package:firstflutter_project/modules/settings/settings_screen.dart';
 import 'package:firstflutter_project/modules/sports/sports_screen.dart';
+import 'package:firstflutter_project/shared/cubit/states.dart';
 import 'package:firstflutter_project/shared/network/remote/dio_helper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -145,5 +146,33 @@ class NewsCubit extends Cubit<NewsStates>
       {
         emit(NewsGetScienceSuccessState());
       }
+  }
+
+  List<dynamic> search = [];
+
+  void getSearch(String value)
+  {
+    emit(NewsGetSearchLoadingState());
+
+    search = [];
+
+    DioHelper.getData(url: 'v2/everything',
+      query: {
+        'q' : '$value',
+        'apiKey' : 'ca212ae6d01b468586323faad1884a42',
+      },
+    ).then((value)
+    {
+      //print(value.data.toString());
+      search = value.data['articles'];
+      print(search[0]['title']);
+
+      emit(NewsGetSearchSuccessState());
+
+
+    }).catchError((error){
+      print(error.toString());
+      emit(NewsGetSearchErrorState(error.toString()));
+    });
   }
 }

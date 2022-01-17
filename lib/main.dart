@@ -11,6 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'layout/news_app/cubit/cubit.dart';
 import 'layout/news_app/news_layout.dart';
 import 'layout/todo_app/home_layout1.dart';
 import 'modules/bmi_result/bmi_resultscreen.dart';
@@ -23,6 +24,7 @@ import 'package:dio/dio.dart';
 
 void main() async
 {
+  // السطر ده بيتأكد ان كل حاجة هنا فى الميثود خلصت و بعدين بتفتح فى الابلكيشن
   WidgetsFlutterBinding.ensureInitialized();
 
   BlocOverrides.runZoned(
@@ -55,10 +57,13 @@ class MyApp extends StatelessWidget
   @override
   Widget build(BuildContext Context)
   {
-    return BlocProvider(
-      create: (BuildContext context) => AppCubit()..changeAppMode(
-        fromShared: isDark,
-      ),
+    return MultiBlocProvider(
+      providers:
+      [
+        BlocProvider(create: (context) => NewsCubit()..getBusiness()..getScience()..getSports(),),
+        BlocProvider(create: (BuildContext context) => AppCubit()..changeAppMode(
+  fromShared: isDark,)
+      )],
       child: BlocConsumer<AppCubit, AppStates>
         (
         listener: (BuildContext context, state) {},
